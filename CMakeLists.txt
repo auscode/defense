@@ -13,7 +13,8 @@ set(CMAKE_AUTORCC ON)
 add_executable(${PROJECT_NAME}
     src/main.cpp
     src/gui/MainWindow.cpp
-    src/gui/MainWindow.h 
+    src/gui/MainWindow.h
+    src/gui/mainwindow.ui
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE include)
